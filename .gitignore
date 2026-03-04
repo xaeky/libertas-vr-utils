@@ -104,6 +104,3 @@ Assets/PackageMakerWindowData.asset*
 .vscode
 
 # == End of Unity gitignore chunk ==
-# == For Xaeky/Libertas projects ==
-
-!cloud.xaeky.unity-*

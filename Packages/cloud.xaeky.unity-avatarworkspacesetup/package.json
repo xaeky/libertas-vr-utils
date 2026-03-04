@@ -1,0 +1,18 @@
+{
+  "name": "cloud.xaeky.unity-avatarworkspacesetup",
+  "displayName": "Xaeky's Avatar Workspace Setup",
+  "version": "1.0.0",
+  "description": "Describe this Package",
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.avatars": "3.10.2"
+  },
+  "author": {
+    "name": "Xaeky",
+    "email": "im@goob.ing",
+    "url": "avatars.xaeky.cloud"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "D:\\_actors\\_affiliate\\_officialLibertas\\UNITY_PROJECTS\\libertas-vr-utils\\Packages\\cloud.xaeky.unity-avatarworkspacesetup"
+}
