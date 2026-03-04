@@ -2,7 +2,7 @@
   "name": "cloud.xaeky.unity-avatarworkspacesetup",
   "displayName": "Xaeky's Avatar Workspace Setup",
   "version": "1.0.0",
-  "description": "Describe this Package",
+  "description": "A tool to set up a workspace for VRC avatar creation in Unity.",
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.avatars": "3.10.2"
@@ -10,7 +10,7 @@
   "author": {
     "name": "Xaeky",
     "email": "im@goob.ing",
-    "url": "avatars.xaeky.cloud"
+    "url": "https://avatars.xaeky.cloud"
   },
   "legacyFolders": {},
   "legacyFiles": {},
