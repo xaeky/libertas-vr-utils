@@ -43,6 +43,11 @@ jobs:
           echo "version=${{ steps.version.outputs.value }}" >> $GITHUB_ENV
           echo "labelversion=${{ steps.tag.outputs.value }}-${{ steps.version.outputs.value }}" >> $GITHUB_ENV
       
+      # Make a zip file of the Package for release
+      - name: Create package .zip
+        working-directory: "${{ env.packagePath }}"
+        run: zip -r "${{ github.workspace }}/${{ env.zipFile }}" .
+
       # Build a list of .meta files for future use
       - name: Track Package Meta Files
         run: find "${{ env.packagePath }}/" -name \*.meta >> metaList
