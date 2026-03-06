@@ -7,8 +7,7 @@ env:
 on:
   workflow_run:
     workflows: [Build Packages]
-    types:
-      - success
+    types: [completed]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -24,6 +23,7 @@ concurrency:
 jobs:
   # Build the VPM Listing and deploy to GitHub Pages
   build-listing:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: build-listing
     environment:
       name: github-pages
