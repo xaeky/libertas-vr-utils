@@ -44,9 +44,21 @@ public class XaekyAvatarBase
       defaultPrefabWindowsPath = "VRC Mayu Tora Avatar PC Prefab.prefab",
       defaultPrefabAndroidPath = "VRC Mayu Tora Avatar Quest Prefab.prefab",
       defaultMaterialsDir = "VRC Mayu Avatar/Materials/",
-      defaultMaterialsMobileDir = "VRC Mayu Avatar/Materials/Quest/",
+      defaultMaterialsMobileDir = "VRC Mayu Avatar/Materials Quest/",
       defaultMaterialsNames = new string[] { "Mayu Tora Body", "Mayu Tora Head" },
       defaultMaterialsMobileNames = new string[] { "Mayu Tora Body Quest", "Mayu Tora Head Quest" }
     },
+    new XaekyAvatarBase {
+      id = "mayu_oyama",
+      name = "Mayu (Oyama)",
+      author = "AzukiTiger",
+      defaultBaseDir = "Assets/AzukiTiger/VRC Mayu Avatar Bundle/",
+      defaultPrefabWindowsPath = "VRC Mayu Oyama Avatar PC Prefab.prefab",
+      defaultPrefabAndroidPath = "VRC Mayu Oyama Avatar Quest Prefab.prefab",
+      defaultMaterialsDir = "VRC Mayu Avatar/Materials/",
+      defaultMaterialsMobileDir = "VRC Mayu Avatar/Materials Quest/",
+      defaultMaterialsNames = new string[] { "Mayu Oyama Body", "Mayu Oyama Head" },
+      defaultMaterialsMobileNames = new string[] { "Mayu Oyama Body Quest", "Mayu Oyama Head Quest" }
+    }
   };
 }
