@@ -6,7 +6,7 @@ env:
   
 on:
   workflow_run:
-    workflows: [Build Release]
+    workflows: [Build Packages]
     types:
       - completed
 
@@ -22,8 +22,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  
-  # Build the VPM Listing Website and deploy to GitHub Pages
+  # Build the VPM Listing and deploy to GitHub Pages
   build-listing:
     name: build-listing
     environment:
@@ -36,22 +35,9 @@ jobs:
       - name: Checkout Local Repository
         uses: actions/checkout@v4
 
-      # Checkout Automation Repository without removing prior checkouts
-      - name: Checkout Automation Repository
-        uses: actions/checkout@v4
-        with:
-          repository: vrchat-community/package-list-action
-          path: ${{ env.pathToCi }}
-          clean: false
-
-      # Load cached data from previous runs
-      - name: Restore Cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ${{ env.pathToCi }}/.nuke/temp
-            ~/.nuget/packages
-          key: ${{ runner.os }}-${{ hashFiles('**/global.json', '**/*.csproj') }}
+      # Build package version listing with buildListing.sh
+      - name: Build Package Version Listing with Script
+        run: ${{ env.pathToCi }}/buildListing.sh
       
       # Build Package Version Listing with Nuke
       - name: Build Package Version Listing

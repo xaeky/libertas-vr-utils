@@ -1,4 +1,5 @@
 {
+  "tag": "xaws",
   "name": "cloud.xaeky.unity-avatarworkspacesetup",
   "displayName": "Xaeky's Avatar Workspace Setup",
   "version": "1.0.0",
@@ -14,5 +15,5 @@
   },
   "legacyFolders": {},
   "legacyFiles": {},
-  "localPath": "D:\\_actors\\_affiliate\\_officialLibertas\\UNITY_PROJECTS\\libertas-vr-utils\\Packages\\cloud.xaeky.unity-avatarworkspacesetup"
+  "localPath": ""
 }

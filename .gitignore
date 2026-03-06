@@ -104,3 +104,6 @@ Assets/PackageMakerWindowData.asset*
 .vscode
 
 # == End of Unity gitignore chunk ==
+
+# Output of Scripts/buildListing.sh
+Website/index.json
