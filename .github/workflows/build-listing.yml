@@ -4,6 +4,7 @@ env:
   listPublishDirectory: Website
   
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: [Build Packages]
     types: [completed]
