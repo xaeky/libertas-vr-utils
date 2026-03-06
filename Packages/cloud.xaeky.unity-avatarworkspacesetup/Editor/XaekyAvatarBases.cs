@@ -46,7 +46,7 @@ public class XaekyAvatarBase
       defaultMaterialsDir = "VRC Mayu Avatar/Materials/",
       defaultMaterialsMobileDir = "VRC Mayu Avatar/Materials Quest/",
       defaultMaterialsNames = new string[] { "Mayu Tora Body", "Mayu Tora Head" },
-      defaultMaterialsMobileNames = new string[] { "Mayu Tora Body Quest", "Mayu Tora Head Quest" }
+      defaultMaterialsMobileNames = new string[] { "Mayu Tora Body Q", "Mayu Tora Head Q" }
     },
     new XaekyAvatarBase {
       id = "mayu_oyama",
@@ -58,7 +58,7 @@ public class XaekyAvatarBase
       defaultMaterialsDir = "VRC Mayu Avatar/Materials/",
       defaultMaterialsMobileDir = "VRC Mayu Avatar/Materials Quest/",
       defaultMaterialsNames = new string[] { "Mayu Oyama Body", "Mayu Oyama Head" },
-      defaultMaterialsMobileNames = new string[] { "Mayu Oyama Body Quest", "Mayu Oyama Head Quest" }
+      defaultMaterialsMobileNames = new string[] { "Mayu Oyama Body Q", "Mayu Oyama Head Q" }
     }
   };
 }
