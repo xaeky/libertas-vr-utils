@@ -23,7 +23,6 @@ concurrency:
 jobs:
   # Build the VPM Listing and deploy to GitHub Pages
   build-listing:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: build-listing
     environment:
       name: github-pages

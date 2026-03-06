@@ -9,7 +9,7 @@ PACKAGES_PATH="$SCRIPT_CWD/../Packages"
 PACKAGES='[]'
 # Get from ./listing.json
 LISTING=$(cat "$SCRIPT_CWD/listing.json" 2>/dev/null || echo '{"packages": {}}')
-WEBSITE_PATH="$SCRIPT_CWD/../website"
+WEBSITE_PATH="$SCRIPT_CWD/../Website"
 
 if ! command -v jq >/dev/null 2>&1; then
   echo "Error: jq is not installed."
