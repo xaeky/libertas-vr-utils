@@ -105,5 +105,8 @@ Assets/PackageMakerWindowData.asset*
 
 # == End of Unity gitignore chunk ==
 
+/[Tt]hry/
+/[Aa]ssets/*
+
 # Output of Scripts/buildListing.sh
 Website/index.json
