@@ -1,8 +1,5 @@
 ﻿using UnityEditor;
-using UnityEditor.SearchService;
-using UnityEditor.VersionControl;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class XaekyCustomAvatarSetup : MonoBehaviour {
   public static bool UserDirExists(string usernamePath = "") {
