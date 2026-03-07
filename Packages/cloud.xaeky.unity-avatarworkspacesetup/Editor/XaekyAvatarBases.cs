@@ -32,7 +32,7 @@ namespace Xaeky
     }
 
     public static XaekyAvatarBase[] avatarBases = new XaekyAvatarBase[] {
-    new XaekyAvatarBase {
+    new() {
       id = "novabeast",
       name = "Novabeast",
       author = "Kittomatic",
@@ -53,7 +53,7 @@ namespace Xaeky
         bodyRendererName = "Body"
       }
     },
-    new XaekyAvatarBase {
+    new() {
       id = "novabeast_memphis",
       name = "Novabeast (Memphis Edit)",
       author = "Kittomatic",
@@ -78,7 +78,7 @@ namespace Xaeky
         bodyRendererName = "Body"
       }
     },
-    new XaekyAvatarBase {
+    new() {
       id = "mayu_tora",
       name = "Mayu (Tora)",
       author = "AzukiTiger",
@@ -103,7 +103,7 @@ namespace Xaeky
         bodyRendererName = "Body"
       }
     },
-    new XaekyAvatarBase {
+    new() {
       id = "mayu_oyama",
       name = "Mayu (Oyama)",
       author = "AzukiTiger",
@@ -122,6 +122,31 @@ namespace Xaeky
           path = "VRC Mayu Avatar/Materials Quest/",
           names = new string[] { "Mayu Oyama Body Q", "Mayu Oyama Head Q" },
           bodyAssignment = new int[] { 1, 0 }
+        }
+      },
+      defaultProps = new DefaultProps {
+        bodyRendererName = "Body"
+      }
+    },
+    new() {
+      id = "nardo",
+      name = "Nardoragon",
+      author = "Nardoiri",
+      baseDir = "Assets/Dragon/",
+      defaultPrefabs = new DefaultPrefabs {
+        windows = "Prefabs/Nardoragon.prefab",
+        quest = "Prefabs/Quest Nardoragon.prefab"
+      },
+      defaultMaterials = new DefaultMaterials {
+        windows = new DefaultMaterialsItem {
+          path = "Materials/",
+          names = new string[] { "Body", "Eyes", "Fluff", "Misc" },
+          bodyAssignment = new int[] { 0, 3, 1, 2, -1 }
+        },
+        quest = new DefaultMaterialsItem {
+          path = "Materials/Quest/",
+          names = new string[] { "Quest Body", "Quest Eyes", "Quest Fluff", "Quest Misc" },
+          bodyAssignment = new int[] { 0, 3, 1, 2 }
         }
       },
       defaultProps = new DefaultProps {
