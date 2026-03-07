@@ -6,7 +6,8 @@
   "description": "A tool to set up a workspace for VRC avatar creation in Unity.",
   "gitDependencies": {},
   "vpmDependencies": {
-    "com.vrchat.avatars": "3.10.2"
+    "com.vrchat.avatars": "3.10.2",
+    "com.poiyomi.toon": "9.3.64"
   },
   "author": {
     "name": "Xaeky",
