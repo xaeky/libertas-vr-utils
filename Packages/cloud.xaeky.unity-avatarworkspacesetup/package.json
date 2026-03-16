@@ -2,7 +2,7 @@
   "tag": "xaws",
   "name": "cloud.xaeky.unity-avatarworkspacesetup",
   "displayName": "Xaeky's Avatar Workspace Setup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool to set up a workspace for VRC avatar creation in Unity.",
   "gitDependencies": {},
   "vpmDependencies": {
